@@ -97,7 +97,7 @@ This section can be completed once per project to get it setup with a virtual en
   - This gets us into our top level envs directory.
 - Type `python3 -m venv test-project`.  Replace test-project with your project name.  If you are following my convention, this will match the name of the GitHub repo you are about to clone.
   - This makes a new Python virtual environment named "test-project"
-- Next, you can activate this virtual environment by running `source /home/dwinslow/test-project/bin/activate`. Replace `dwinslow` with your username and `test-project` with your environment name.
+- Next, you can activate this virtual environment by running `source /home/dwinslow/envs/test-project/bin/activate`. Replace `dwinslow` with your username and `test-project` with your environment name.
 - This activates your new virtual environment.  You should see your command prompt change 
   to include your environment name.  
 
