@@ -1,6 +1,4 @@
-**Python Development Environment Setup: **
-
-**Windows 10, Windows Subsystem for Linux, Ubuntu, VS Code**
+# How I setup my Windows 10, Windows Subsystem for Linux (WSL), Ubuntu, VS Code Development Environment
 
 <u>Why this setup?</u>
 
