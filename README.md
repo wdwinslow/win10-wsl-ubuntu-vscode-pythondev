@@ -26,7 +26,7 @@ I'm glad you asked.  I'm writing this 99% for myself...but if it helps someone e
 - Scroll to the bottom and click the check box for Windows Subsystem for Linux.
 - Click Ok.
 - Reboot as prompted.
-- After you reboot, open the Windows Store.
+- After you reboot, open the Microsoft Store app on your PC.
 - Search for Ubuntu and install the 18.04 LTS version.
 - Once the install is complete, click launch. 
 - Set your username and password etc.
