@@ -1,6 +1,6 @@
 # How I setup my Windows 10, Windows Subsystem for Linux (WSL), Ubuntu, VS Code Development Environment
 
-<u>Why this setup?</u>
+**<u>Why this setup?</u>**
 
 I use computers running Microsoft Windows 10 as my primary machines.  I'm currently enrolled in the RMOTR Python / Django training program (it's great by the way).  In that program you are provided an interesting remote development environment (Notebooks.io).  However, I wanted to go ahead and get a proper local development environment setup.  I also wanted that environment to work well with the normal tooling RMOTR uses (such as make files etc).  
 
@@ -8,19 +8,19 @@ Getting all that to behave directly on my Windows 10 machine proved to be a bit 
 
 
 
-<u>Did it work?</u>
+**<u>Did it work?</u>**
 
 Yes, for my purposes, what is outlined below seems to be working fine for me.
 
 
 
-<u>How did you set things up?</u>
+**<u>How did you set things up?</u>**
 
 I'm glad you asked.  I'm writing this 99% for myself...but if it helps someone else that is awesome!
 
 
 
-<u>*Windows Setup:*</u>
+**<u>*Windows Setup:*</u>**
 
 - Click start - type "Turn Windows", click on "Turn Windows features on or off".
 - Scroll to the bottom and click the check box for Windows Subsystem for Linux.
@@ -33,7 +33,7 @@ I'm glad you asked.  I'm writing this 99% for myself...but if it helps someone e
 
 
 
-<u>*VS Code Setup:*</u>
+**<u>*VS Code Setup:*</u>**
 
 - Download and install [VS Code](https://code.visualstudio.com/).
 - Install the [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) extension.
@@ -41,7 +41,7 @@ I'm glad you asked.  I'm writing this 99% for myself...but if it helps someone e
 
 
 
-<u>*Linux Housekeeping:*</u>
+**<u>*Linux Housekeeping:*</u>**
 
 - This section needs work.
   - Update
@@ -49,7 +49,7 @@ I'm glad you asked.  I'm writing this 99% for myself...but if it helps someone e
 
 
 
-<u>*Virtual Environments / Code Storage:*</u>
+**<u>*Virtual Environments / Code Storage:*</u>**
 
 This next section assumes you are going to follow some configuration conventions I have decided to embrace.  They are:
 
@@ -76,7 +76,7 @@ That sets up the shell we need.  The next sections deal with how to setup and wo
 
 
 
-*<u>Per Project: Virtual Environment Setup:</u>*
+***<u>Per Project: Virtual Environment Setup:</u>***
 
 This section can be completed once per project to get it setup with a virtual environment etc.
 
@@ -90,7 +90,7 @@ This section can be completed once per project to get it setup with a virtual en
 
 
 
-*<u>Per Project: Get our code ready to work on:</u>*
+***<u>Per Project: Get our code ready to work on:</u>***
 
 Now that we have our virtual environment active and ready, we can clone our code and install our requirements.
 
@@ -103,7 +103,7 @@ Now that we have our virtual environment active and ready, we can clone our code
 
 
 
-<u>*Per Project: Can we please write some code already?:*</u>
+**<u>*Per Project: Can we please write some code already?:*</u>**
 
 Now that all the prep work is done, we can get down to actually writing code.  In order to do that with VS Code, you can simply type `code .`  Don't miss the `.`
 
@@ -112,7 +112,7 @@ Now that all the prep work is done, we can get down to actually writing code.  I
 
 
 
-*<u>Per Project: Git commands to push your changes:</u>*
+***<u>Per Project: Git commands to push your changes:</u>***
 
 - Once you are done writing code use these commands to commit your code back to the GitHub repo.
   - Make sure you are in the correct location.  In my case this is `/home/dwinslow/code/test-project`.
@@ -127,7 +127,7 @@ Now that all the prep work is done, we can get down to actually writing code.  I
 
 
 
-*<u>Per Project: Cleanup:</u>*
+***<u>Per Project: Cleanup:</u>***
 
 Once you are done, you might want to deactivate your virtual environment. You can do that by simply typing: `deactivate`.  Your command prompt will return to normal.
 
@@ -135,7 +135,7 @@ You might also like to unhook VS Code from what you were working on.  To to that
 
 
 
-*<u>Questions I still need to answer / document:</u>*
+***<u>Questions I still need to answer / document:</u>***
 
 - How well does VS Code debugging work with this setup?
   - Related: How does VS Code deal with the virtual environments?  For now, I'm running all of my terminal commands over in the Linux environment directly.
